@@ -1,0 +1,93 @@
+/* Container and Grid */
+.deals-container {
+    padding: 30px;
+    background-color: #f3f3f3;
+}
+
+.deals-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Grid Layout */
+.deals-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+/* Deal Card */
+.deal-card {
+    background-color: white;
+    width: 260px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.deal-card:hover {
+    transform: scale(1.03);
+}
+
+/* Image */
+.deal-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Info Block */
+.deal-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.deal-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.discounted-price {
+    color: #c45500;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Button */
+.add-btn {
+    background-color: #007185;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-btn:hover {
+    background-color: #004f63;
+}
+
+/* Success Message */
+.success-msg {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
